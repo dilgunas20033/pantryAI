@@ -1,0 +1,17 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+import HomeScreen from '../mainApp/home/main.jsx';
+
+const Tab = createBottomTabNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator initialRouteName="home">
+        <Tab.Screen name="home" component={HomeScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+}

@@ -1,0 +1,134 @@
+.box {
+    height: 49px;
+    width: 352px;
+  }
+  
+  .box .text-box {
+    background-color: #d9d9d9;
+    border: 2px solid;
+    border-color: #f5f5f5;
+    border-radius: 25px;
+    height: 49px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 352px;
+  }
+
+  .send-icon {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .send-icon .icon {
+    height: 16px;
+    left: 3px;
+    position: absolute;
+    top: 4px;
+    width: 19px;
+  }
+
+  .image {
+    height: 238px;
+    width: 236px;
+  }
+  
+  .image .knife {
+    height: 238px;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 236px;
+  }
+  
+  .image2 { 
+    height: 235px; 
+    width: 233px; 
+  }
+
+  .image2 .knife2 {
+    height: 235px; 
+    left: 0;
+    object-fit: cover; 
+    position: fixed; 
+    top: 0; 
+    width: 233px;
+  }
+
+  .image3 {
+    height: 557px;
+    width: 506px;
+  }
+
+  .image3 .chef-emoji {
+    height: 557px;
+    left: 0;
+    object-fit: cover;
+    position: fixed; 
+    top: 0; 
+    width: 393px; 
+  }
+
+  .menu-icon {
+    height: 30px;
+    position: relative; 
+    width: 30px 
+  }
+
+  .menu-icon .icon {
+    height: 15px;
+    left: 4px; 
+    position: absolute; 
+    top: 8px; 
+    width: 22px; 
+  }
+
+  .label {
+    height: 36px;
+    width:138px;
+  }
+
+  .label .text-wrapper {
+    -webkit-text-stroke: 1px #f5f5f5;
+    color: #ffffff; 
+    font-family: "Noro Serif-Regular", Helvetica;
+    font-size: 32px; 
+    font-weight: 400; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: 32px; 
+    position: fixed; 
+    text-align: center; 
+    top: 0; 
+    white-space: nowrap; 
+    width: 138px; 
+  }
+
+  .header {
+    height: 71px; 
+    width: 466px; 
+  }
+
+  .header .header2 {
+    background: linear-gradient(180deg, rgb(60, 168, 94) 37%, rgb(19.64, 66, 36.93) 100%);
+    height: 71px; 
+    left: 0; 
+    position: fixed; 
+    top: 0;
+    width: 466px; 
+  }
+
+  .footer1 {
+    height: 84px; 
+    width: 466px; 
+  }
+
+  .footer1 .footer2 {
+    background: linear-gradient(180deg, rgb(60, 168, 94) 37%, rgb(19.64, 66, 36.93) 100%);
+    height: 71px; 
+    left: 0; 
+    position: fixed; 
+    width: 466px; 
+  }
